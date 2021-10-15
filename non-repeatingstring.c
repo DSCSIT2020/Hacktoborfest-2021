@@ -32,7 +32,7 @@ for (i = 0; *(str+i); i++)
 int main()
 {
 	char str[NO_OF_CHARS];	
-	printf("\nEnter the string :" );
+	printf("\nEnter the anything :" );
 	scanf("%s",&str);
 	int index = first_non_repeating_character(str);
 	if (index == -1)

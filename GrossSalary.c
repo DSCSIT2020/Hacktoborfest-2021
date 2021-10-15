@@ -4,7 +4,7 @@ int main()
 {
 	float Basic, HRA, DA, Gross_Salary;
   	
-	printf("\n Please Enter the Basic Salary of an Employee  :  ");
+	printf("\n Enter  Basic Salary of an Employee  :  ");
   	scanf("%f", &Basic);
   
   	if (Basic <= 10000)
@@ -23,7 +23,7 @@ int main()
 	   	DA = (Basic * 30) / 100;
 	}
 	Gross_Salary = Basic + HRA + DA;
-	printf("\n Gross Salary of this Employee  =  %.2f", Gross_Salary); 
+	printf("\n Gross Salary of the Employee  =  %.2f", Gross_Salary); 
 	
   	return 0;
 }
