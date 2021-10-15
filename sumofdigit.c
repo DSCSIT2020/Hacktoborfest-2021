@@ -12,4 +12,4 @@ int main()
     }
     printf("The sum of 5 digit number are= %d",sum);
     
-return 0;
+return 0;}
