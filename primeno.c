@@ -4,7 +4,7 @@ int main()
 {
   int i, Number, count, Minimum, Maximum; 
 
-  printf("\n Please Enter the Minimum & Maximum Values\n");
+  printf("\n Please Enter number range Values\n");
   scanf("%d %d", &Minimum, &Maximum);
  
   printf("Prime Numbers Between %d and %d are:\n", Minimum, Maximum);  
